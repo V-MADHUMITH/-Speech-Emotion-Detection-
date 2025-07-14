@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Emotion Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Voice Emotion Predictor 🎤</h1>
+  <div class="container">
+    <div class="option">
+      <h2>1. Upload Audio File</h2>
+      <input type="file" id="audio-upload" accept="audio/*">
+      <button id="predict-upload">Predict Emotion</button>
+    </div>
+    <div class="option">
+      <h2>2. Record Your Voice</h2>
+      <button id="start-record">Start Recording</button>
+      <button id="stop-record" disabled>Stop Recording</button>
+      <audio id="recorded-audio" controls></audio>
+      <button id="predict-record" disabled>Predict Emotion</button>
+    </div>
+    <div id="result" class="result"></div>
+    <div id="suggestion" class="suggestion"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

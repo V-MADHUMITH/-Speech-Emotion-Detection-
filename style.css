@@ -1,0 +1,50 @@
+body {
+  background: #232946;
+  color: #fffffe;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #121629;
+  border-radius: 16px;
+  padding: 30px 20px 40px 20px;
+  box-shadow: 0 2px 24px #0006;
+}
+.option {
+  margin-bottom: 32px;
+}
+input[type="file"] {
+  margin-top: 10px;
+}
+button {
+  margin: 10px 5px 0 5px;
+  padding: 8px 16px;
+  background: #eebbc3;
+  color: #232946;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #b8c1ec;
+  cursor: not-allowed;
+}
+.result {
+  font-size: 1.5em;
+  margin: 18px 0 8px 0;
+}
+.suggestion {
+  font-size: 1.1em;
+  margin: 10px 0 0 0;
+  color: #eebbc3;
+}
+audio {
+  margin-top: 8px;
+  width: 80%;
+}
